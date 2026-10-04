@@ -1,0 +1,3 @@
+Class: 0  Confidence: 0.448  Box: [61.09, 113.12, 307.21, 231.4]
+Class: 0  Confidence: 0.297  Box: [126.71, 143.36, 320.0, 236.16]
+Class: 0  Confidence: 0.161  Box: [95.05, 156.18, 320.0, 240.0]

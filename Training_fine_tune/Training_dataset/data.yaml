@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Hotspot']
+
+roboflow:
+  workspace: cloudthermal-cam
+  project: my-first-project-mlgzj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cloudthermal-cam/my-first-project-mlgzj/dataset/1

@@ -1,0 +1,6 @@
+/tensorflow_env/
+/Training_fine_tune/Venv/
+/Automated-detection-of-hotspot-in-thermal-images-master/
+
+__pycache__/
+*.py[cod]
