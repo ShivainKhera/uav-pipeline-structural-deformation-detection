@@ -1,5 +1,3 @@
-This repo implements the ground-based proof-of-concept; the filed patent extends this to a UAV-mounted platform with onboard edge computing and geolocation
-
 # UAV Thermal Imaging and Hotspot Detection
 
 This project explores thermal imaging for pipeline inspection. The local codebase contains a ground based YOLOv8 hotspot detection proof of concept, thermal image preprocessing utilities, and an older image classification prototype. The figures and PDFs alongside this guide document the broader UAV mounted pipeline monitoring concept.
@@ -10,23 +8,23 @@ This project explores thermal imaging for pipeline inspection. The local codebas
 
 The system concept captures temperature frames with an MLX90640 thermal camera, processes them on a Raspberry Pi, and combines hotspot detection with location and time information for inspection records.
 
-![Conceptual thermal inspection data flow from the pipeline and thermal camera through Raspberry Pi processing and detection to a monitoring output.](../../docs/remote-assets/Data_flow.jpeg)
+![Conceptual thermal inspection data flow from the pipeline and thermal camera through Raspberry Pi processing and detection to a monitoring output.]( docs/Data_flow.jpeg)
 
 The component diagram illustrates how the Raspberry Pi, thermal camera, and GPS module exchange thermal frames and coordinate information.
 
-![Thermal camera, Raspberry Pi 5, GPS module, and heat source data flow.](../../docs/remote-assets/Flowchart.jpeg)
+![Thermal camera, Raspberry Pi 5, GPS module, and heat source data flow.]( docs/Flowchart.jpeg)
 
 ## Hardware
 
 The hardware photo shows the Raspberry Pi-based prototype connected to the thermal camera and GPS modules.
 
-![Hardware prototype with Raspberry Pi, thermal camera, and GPS modules (page 1).](../../docs/remote-assets/hardware%20photo_page-0001.jpg)
+![Hardware prototype with Raspberry Pi, thermal camera, and GPS modules (page 1).]( docs/hardware%20photo_page-0001.jpg)
 
 Example detection output, confidence score summary, and sample GPS and timestamp log from the project materials:
 
 | Detection output | Confidence scores | GPS and timestamp log |
 |---|---|---|
-| ![Thermal hotspot output with detection boxes and location/time overlay.](../../docs/remote-assets/Output_image.jpeg) | ![Example terminal output showing hotspot detection confidence scores.](../../docs/remote-assets/confidence_scores_ai.jpeg) | ![Example terminal output associating image frames with GPS coordinates and timestamps.](../../docs/remote-assets/Terminal_output_gps_and_timestamp.jpeg) |
+| ![Thermal hotspot output with detection boxes and location/time overlay.]( docs/Output_image.jpeg) | ![Example terminal output showing hotspot detection confidence scores.]( docs/confidence_scores_ai.jpeg) | ![Example terminal output associating image frames with GPS coordinates and timestamps.]( docs/Terminal_output_gps_and_timestamp.jpeg) |
 
 These images illustrate project artifacts; their presence does not mean the associated GPS acquisition or end to end UAV pipeline is implemented in the current local scripts.
 
