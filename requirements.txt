@@ -1,0 +1,8 @@
+# Runtime dependencies imported by the Training_fine_tune YOLO scripts.
+ultralytics
+torch
+opencv-python
+os
+numpy
+matplotlib
+scikit-learn
